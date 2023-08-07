@@ -1,0 +1,71 @@
+.technology {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../../public/technology_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.technology_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1275px;
+    height: 580px;
+    margin: 160px 0 0 260px;
+}
+
+.technology_title {
+    color: #FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+}
+
+.technology_body {
+    display: flex;
+    width: 1275px;
+    height: 520px;
+    margin-top: 25px;
+}
+
+.technology_list {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 305px;
+    margin: 85px 80px 0 0;
+    gap: 32px;
+}
+
+.technology_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.technology_link{
+    color: #fff;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 32px;
+}
+
+.technology_item.active{
+    box-shadow: 1px 1px 10px 2px rgba(255, 255, 255, 0.6);
+}
+
+
+.technology_content{
+    display: flex;
+    width: 1110px;
+    height: 520px;
+}

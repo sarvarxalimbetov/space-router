@@ -1,0 +1,33 @@
+.notFoundPage{
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/images/notFoundPage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.notFoundPage_btn{
+    position: absolute;
+    top: 50px;
+    left: 43%;
+    width: 200px;
+    height: 50px;
+    color: #05084B;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-size: 36px;
+    transition: all .3s;
+}
+
+.notFoundPage_btn:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.notFoundPage_btn:active{
+    transform: scale(0.9);
+}

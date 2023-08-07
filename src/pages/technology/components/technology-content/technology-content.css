@@ -1,0 +1,44 @@
+.technology_outlet {
+    display: flex;
+    width: 1110px;
+    height: 520px;
+}
+
+.technology_info {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    height: 300px;
+    margin: 120px 120px 0 0;
+}
+
+.technology_text {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.7px;
+}
+
+.technology_subtitle {
+    color: #FFF;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 56px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 10px 0 15px;
+}
+
+.technology_desc {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 5px;
+    width: 430px;
+}
+
+.technology_img {
+    width: 510px;
+    height: 520px;
+}

@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css2?family=Bellefair&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1096px;
+    height: 400px;
+}
+
+.content_img {
+    margin-top: -50px;
+    width: 400px;
+    height: 400px;
+}
+
+.content_info {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.content_title {
+    color: #FFF;
+    font-family: 'Bellefair', serif;
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content_desc {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0 35px 0;
+    width: 400px;
+}
+
+.content_line {
+    width: 400px;
+    height: 1px;
+    background-color: #383B4B;
+    margin-bottom: 27px;
+}
+
+.content_timeInfo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.content_timeInfo div {
+    width: 200px;
+    height: 60px;
+}
+
+.content_distance p,
+.content_time p {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.content_distance span,
+.content_time span {
+    color: #FFF;
+    font-family: Bellefair;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
